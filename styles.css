@@ -1,0 +1,30 @@
+#board {
+    padding-top: 3rem;
+    text-align: center;
+}
+.row {
+    margin: auto;
+    width: 302px;
+    clear: both;
+}
+.row > div {
+    float: left;
+    width: 100px;
+    height: 100px;
+    
+}
+.top {
+    border-bottom: 1px solid black;
+}
+.bottom {
+    border-top: 1px solid black;
+}
+.left {
+    border-right: 1px solid black;
+}
+.right {
+    border-left: 1px solid black;
+}
+.row > div:hover {
+    cursor: pointer;
+}
