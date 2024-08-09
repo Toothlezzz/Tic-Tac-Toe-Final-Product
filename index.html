@@ -7,42 +7,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="board">
-        <h1>Tic Tac Toe</h1>
-        <div class ="row">
-            <div class="top left">
-
+    <div id ="container">
+        <div id="board">
+            <h1>Tic Tac Toe</h1>
+            <p id ="winner"></p>
+            <div class ="row">
+                <div class="top left"></div>
+                <div class="top middle"></div>
+                <div class="top right"></div>
             </div>
-            <div class="top middle">
-                
+            <div class ="row">
+                <div class="middle left"></div>
+                <div class="middle center"></div>
+                <div class="middle right"></div>
             </div>
-            <div class="top right">
-                
-            </div>
-        </div>
-        <div class ="row">
-            <div class="middle left">
-
-            </div>
-            <div class="middle center">
-                
-            </div>
-            <div class="middle right">
-                
+            <div class ="row">
+                <div class="bottom left"></div>
+                <div class="bottom middle"></div>
+                <div class="bottom right"></div>
             </div>
         </div>
-        <div class ="row">
-            <div class="bottom left">
-
-            </div>
-            <div class="bottom middle">
-                
-            </div>
-            <div class="bottom right">
-                
-            </div>
-        </div>
+        <button id ="restart"></button>
     </div>
-    
+    <script src="app.js"></script>
 </body>
 </html>
